@@ -1,0 +1,155 @@
+body
+{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+header, .header
+{
+background-color: white;
+padding: 10px;
+text-align: center;
+}
+
+.header_list
+ {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header_list a {
+    text-decoration: none;
+    font-weight: 500;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    color: #333;
+    background-color: white;
+    padding: 20px;
+    gap: 40px;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+header, .header 
+{
+
+    padding: 10px;
+    text-align: center;
+}
+.header {
+    background-color:white;
+
+}
+
+.header a
+{
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+.header h2
+{
+    margin: auto;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    margin-top: 0;
+}
+.sub_header
+{
+    padding: 10px;
+    text-align: center;
+}
+.sub_header h1
+{
+    color: black;
+    justify-content:  center;
+}
+
+.section_2 {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    margin-top: 0;
+}
+.sub_header_1
+{
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.sub_header_1  h2
+{
+color: black;
+justify-content: center;
+}
+
+.section_3 {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    margin-top: 0;
+}

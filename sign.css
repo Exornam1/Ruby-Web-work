@@ -1,0 +1,160 @@
+body
+{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 240, 195);
+
+}
+header 
+{
+    background-color: rgb(252, 240, 195);
+}
+.header_list
+{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_list a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav 
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: rgb(252, 240, 195);
+    padding: 10px;
+    gap: 50px;
+}
+nav a
+{
+    text-decoration: none;
+    margin:0 10px;
+}
+
+.email_container
+{
+    max-width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: rgb(110, 198, 233);
+    padding: 5px;
+}
+.email_container h4
+{
+    margin-left: 30px;
+}
+.password_container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+   max-width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: rgb(110, 198, 233);
+    padding: 5px;
+}
+.password_container h4 
+{
+margin-left: 30px;
+
+}
+.sub_password_container
+{
+    display: flex;
+justify-content: space-between;
+color: black;
+
+}
+.sub_password_container h6
+{
+    background-color: rgb(238, 97, 175);
+    height: 10px;
+    margin-top: 15px;
+    margin-right: 40px;
+    border-radius: 5px;
+    padding: 10px; 
+}
+.sub_password_container h4
+{
+    margin-top: 4px;
+    text-decoration-line: underline ;
+}
+.sign_in_input
+{
+    display: flex;
+    margin-top: 5px;
+    margin: 0 auto;
+    height: 40px;
+    width: 80%;
+    border-radius: 50px;
+    padding:    10px;
+    background-color: black;
+}
+.sign_in_input h4
+{
+    margin: auto;
+    color: beige;
+}
+.sign_in
+{
+    text-align: center;
+    max-width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(185, 116, 250);
+}
+.sign_in h4
+{
+    margin-top: 5px;
+    margin-right: auto;
+    color: aliceblue;
+}
+
+.log_in 
+{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(185, 116, 250);
+    gap: 3px;
+}
+.log_in h4
+{
+    margin-top: 8px;
+    color: aliceblue;
+}
+.log_in img
+{
+margin-top: 5px;
+width: 20px;
+height: 20px;
+}
+.signup_btn
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    gap: 40px;
+}
+.signup_btn  h3
+{
+    text-decoration: underline;
+    font-weight: bolder;
+}
